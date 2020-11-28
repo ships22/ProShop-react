@@ -5,14 +5,14 @@ import Rating from '../components/Rating'
 import axios from 'axios'
 
 const ProductScreen = ({ match }) => {
-  const [product, setProdut] = useState({})
+  const [product, setProduct] = useState({})
   useEffect(() => {
     const fetchProduct = async () => {
       const { data } = await axios.get(`/api/product/${match.params.id}`)
-      setProdut(data)
+      setProduct(data)
     }
     fetchProduct()
-  }, [])
+  }, [match])
 
   return (
     <>
