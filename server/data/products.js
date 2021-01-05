@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Airpod wireless bluetooth headphone',
     image: '/electronics_image/airpod.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '2',
     name: 'DSLR Camera',
     image: '/electronics_image/camera_dslr.jpg',
     description: 'Digital SLR camera.',
@@ -25,7 +23,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '3',
     name: 'Chipset',
     image: '/electronics_image/chipset.jpg',
     description: 'Electronic cicuite helps building electronic component.',
@@ -37,7 +34,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '4',
     name: 'Digital watch',
     image: '/electronics_image/digital_watch.jpg',
     description: 'Digital wrist watch.',
@@ -49,7 +45,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '5',
     name: 'iPhone12',
     image: '/electronics_image/iphone_12.jpg',
     description: 'Iphone 12.',
@@ -61,7 +56,6 @@ const products = [
     numReviews: 5,
   },
   {
-    _id: '6',
     name: 'Macbook pro',
     image: '/electronics_image/mac.jpg',
     description: 'Macbook pro laptop.',
@@ -73,7 +67,6 @@ const products = [
     numReviews: 4,
   },
   {
-    _id: '7',
     name: 'Nokia phone',
     image: '/electronics_image/nokia.jpg',
     description: 'Nokia 001122 model phone.',
@@ -85,7 +78,6 @@ const products = [
     numReviews: 3,
   },
   {
-    _id: '8',
     name: 'Cash till',
     image: '/electronics_image/till.jpg',
     description: 'Cash/Till.',
