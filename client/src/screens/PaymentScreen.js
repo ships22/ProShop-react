@@ -58,4 +58,3 @@ export const PaymentScreen = ({ history }) => {
 }
 
 export default PaymentScreen
-console.log('test')
