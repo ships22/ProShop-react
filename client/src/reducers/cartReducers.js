@@ -46,4 +46,3 @@ export const cartReducer = (
       return state
   }
 }
-console.log('test')
